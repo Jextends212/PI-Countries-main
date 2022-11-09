@@ -1,0 +1,76 @@
+body {
+    background: #eee;
+    font-family: 'Lily Script One';
+    
+    
+  }
+  
+  .card {
+    
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+    float: left;
+    perspective: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap: 200px;
+    
+    margin-top: 10px;
+    
+  }
+  
+  .content {
+    position: absolute;
+    width: 140%;
+    height: 140%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+   
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .card:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   background-image: url("../imgs/travel2.jpg");
+    line-height: 100px;
+    color: #03446A;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+  }
+  
+  .back {
+    background: #f4511e;
+    color: white;
+    transform: rotateY( 180deg );
+  }
+ 
+  .back a{
+
+    text-decoration: none;
+    cursor: pointer;
+
+   
+ 
+  }
+
+  .card img{
+    margin-top: 10%
+  }
+
+  .card h4{
+    color: black;
+  }

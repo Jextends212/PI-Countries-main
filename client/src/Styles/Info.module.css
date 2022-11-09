@@ -1,0 +1,76 @@
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 1%;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card img{
+
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1%;
+  }
+
+
+
+
+  /* Activities Container Css */
+
+  .act{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 1%;
+    background-image: url("../imgs/landing.webp");
+  }
+
+  .act:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .act p{
+    font-size: x-large;
+  }
+
+  .act h2{
+    font-size: x-large;
+  }
+
+  .act img{
+
+   width: 700px;
+   height: 400px;
+
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+
+
+
